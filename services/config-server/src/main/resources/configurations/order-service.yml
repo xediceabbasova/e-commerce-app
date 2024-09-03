@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/order
+    username: khadija
+    password: pass
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+application:
+  config:
+    customer-url: http://localhost:8222/api/v1/customers
+    payment-url: http://localhost:8222/api/v1/payments
+    product-url: http://localhost:8222/api/v1/products
+
+server:
+  port: 8070
