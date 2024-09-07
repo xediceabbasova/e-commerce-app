@@ -2,7 +2,7 @@ package com.khadija.ecommerce.controller;
 
 import com.khadija.ecommerce.dto.CustomerDto;
 import com.khadija.ecommerce.dto.CustomerRequest;
-import com.khadija.ecommerce.service.CustomerService;
+import com.khadija.ecommerce.email.CustomerService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

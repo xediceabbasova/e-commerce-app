@@ -4,7 +4,7 @@ import com.khadija.ecommerce.dto.ProductDto;
 import com.khadija.ecommerce.dto.ProductPurchaseDto;
 import com.khadija.ecommerce.dto.ProductPurchaseRequest;
 import com.khadija.ecommerce.dto.ProductRequest;
-import com.khadija.ecommerce.service.ProductService;
+import com.khadija.ecommerce.email.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.khadija.ecommerce.service;
+package com.khadija.ecommerce.email;
 
 import com.khadija.ecommerce.dto.CustomerDto;
 import com.khadija.ecommerce.dto.CustomerMapper;
